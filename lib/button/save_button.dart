@@ -18,7 +18,7 @@ class _SaveButtonState extends State<SaveButton> {
         });
       },
       icon: Icon(
-        isFavorite ? Icons.bookmark_add_rounded : Icons.bookmark_added_rounded,
+        isFavorite ? Icons.bookmark_added_rounded : Icons.bookmark_add_rounded,
         color: isFavorite ? Colors.yellow : Colors.black,
       ),
     );
